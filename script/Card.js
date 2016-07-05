@@ -1,6 +1,6 @@
-import $ from '../lib/jquery.min.js';
+import _ from '../lib/lodash.min.js';
 
-var defaultOpt = {
+let defaultOpt = {
     id: '',         //卡片标识
     name: '',       //卡片名称
     pow: 0,         //力量点数
@@ -13,16 +13,10 @@ var defaultOpt = {
 };
 class Card {
     constructor(opt) {
-        opt = $.extend(true, defaultOpt, opt);
-        this.id = opt.id;
-        this.pow = opt.pow;
-        this.url = opt.url;
-        this.text = opt.text;
-        this.type = opt.type;
-        this.hero = opt.hero;
-        this.skill = opt.skill;
+        _.merge(this, defaultOpt, opt);
+        this.fpow = opt.pow; //用于展示当前值
     }
-
+    
     // methods
 }
 
