@@ -1,10 +1,10 @@
 <script>
-    import card from './card.vue';
-    import Card from '../script/Card.js';
-    import config_cards from '../resource/config/cards.js';
+    import card from 'components/card.vue';
+    import Card from 'script/Card.js';
+    import config_cards from 'config/cards.js';
 
     let cards = config_cards.map(function(item) {
-        item.url = '/resource/cards/default/' + item.url;
+        //item.url = '/resource/cards/default/' + item.url;
         return new Card(item);
     });
 

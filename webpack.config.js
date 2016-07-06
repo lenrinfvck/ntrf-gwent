@@ -37,8 +37,13 @@ module.exports = {
             filter: path.join(__dirname, './src/filters'),
             components: path.join(__dirname, './components'),
             jquery: path.join(__dirname, './lib/jquery.min.js'),
-            lodash: path.join(__dirname, './lib/lodash.min.js')
-        }
+            vue: path.join(__dirname, './lib/vue.js'),
+            lodash: path.join(__dirname, './lib/lodash.min.js'),
+            config: path.join(__dirname, './resource/config'),
+            script: path.join(__dirname, './script'),
+            vueRouter: path.join(__dirname, './lib/vue-router.min.js'),
+            vueResource: path.join(__dirname, './lib/vue-resource.min.js'),
+        },
     },
     // 开启source-map，webpack有多种source-map，在官网文档可以查到
     devtool: '#source-map'

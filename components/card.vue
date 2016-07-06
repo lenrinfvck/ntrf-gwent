@@ -1,6 +1,6 @@
 <script>
-    import Card from '../script/Card.js';
-    import config_cards from '../resource/config/cards.js';
+    import Card from 'script/Card.js';
+    import config_cards from 'config/cards.js';
 
     export default {
         props: ['cardProp']

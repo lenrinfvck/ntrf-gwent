@@ -1,13 +1,13 @@
 /**
- * ntrf-webdoc入口文件
+ * ntrf-gwent入口文件
  */
 
-import Vue from './lib/vue.js';
-import VueRouter from './lib/vue-router.min.js';
-import VueResource from './lib/vue-resource.min.js';
-import App from './components/app.vue';
-import Index from './components/index.vue';
-import Page_test from './components/page_test.vue';
+import Vue from 'vue';
+import VueRouter from 'vueRouter';
+import VueResource from 'vueResource';
+import App from 'components/app.vue';
+import Index from 'components/index.vue';
+import Page_test from 'components/page_test.vue';
 
 //注册插件
 Vue.use(VueResource);

@@ -1,4 +1,5 @@
-import _ from '../lib/lodash.min.js';
+import _ from 'lodash';
+//let _ = require('lodash');
 
 let defaultOpt = {
     id: '',         //卡片标识

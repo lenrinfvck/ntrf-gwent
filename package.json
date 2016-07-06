@@ -1,9 +1,9 @@
 {
-  "name": "ntrf-webdoc",
+  "name": "ntrf-gwent",
   "version": "0.0.1",
-  "description": "webdoc build on vue",
+  "description": "gwent build on vue",
   "scripts": {
-    "dev": "webpack-dev-server --hot --inline",
+    "dev": "webpack-dev-server --hot --inline --port 9090",
     "build": "webpack -p"
   },
   "repository": {
