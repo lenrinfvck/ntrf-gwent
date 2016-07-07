@@ -25,3 +25,8 @@
 + /resource/face - 卡片皮肤  
 + /script - 主要脚本  
 
+
+### 问题笔记
++ **eslint 误报import为关键字，es6语法报错** 同时局部安装eslint和全局安装时冲突，删除全局安装的eslint，`npm uninstall -g eslint`。  
+
+
